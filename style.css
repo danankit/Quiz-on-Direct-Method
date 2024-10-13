@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg.jpeg'); /* Add your image here */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white; /* Change text color for better contrast */
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.7); /* Make the container slightly transparent */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1); /* Futuristic glow effect */
+    border-radius: 10px;
+    overflow: hidden;
+    width: 400px;
+    padding: 20px;
+    color: #fff; /* Text color inside the container */
+}
+
+#quiz-container {
+    text-align: center;
+}
+
+#question {
+    font-size: 1.5em; /* Slightly larger font for questions */
+    margin-bottom: 20px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+}
+
+.option {
+    background: #1e88e5; /* Futuristic blue */
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.option:hover {
+    background: #1565c0; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+#next-button {
+    background: #e53935; /* Red for the next button */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+    margin-top: 20px;
+}
+
+#next-button:hover {
+    background: #d32f2f;
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}

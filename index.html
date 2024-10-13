@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Quiz assessment webpage with animations and transitions">
+    <title>Quiz Assessment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="quiz-container">
+            <div id="question">Question Text Here</div>
+            <div class="options">
+                <button class="option" onclick="selectOption(0)">Option 1</button>
+                <button class="option" onclick="selectOption(1)">Option 2</button>
+                <button class="option" onclick="selectOption(2)">Option 3</button>
+                <button class="option" onclick="selectOption(3)">Option 4</button>
+            </div>
+            <button id="next-button" onclick="nextQuestion()">Next</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
